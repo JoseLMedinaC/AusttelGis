@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>AUSTTEL_WifiGratis.kml</name>
+	<open>1</open>
+	<Style id="life">
+		<IconStyle>
+			<color>ffffff55</color>
+			<scale>1.6</scale>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<textColor>ffffffff</textColor>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grocery">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grocery</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grocery</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_hospitals">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hospitals</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hospitals</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_salon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_salon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_salon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_shopping">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_shopping</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_shopping</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_snack_bar">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_snack_bar</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_snack_bar0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_snack_bar0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_snack_bar0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_snack_bar</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grocery">
+		<IconStyle>
+			<color>ffd38b04</color>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/grocery.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_hospitals">
+		<IconStyle>
+			<color>ffff9113</color>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_salon">
+		<IconStyle>
+			<color>fff88e14</color>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/salon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_shopping">
+		<IconStyle>
+			<color>fffeb71c</color>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_snack_bar">
+		<IconStyle>
+			<scale>0.816667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/snack_bar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_snack_bar0">
+		<IconStyle>
+			<color>fff4723e</color>
+			<scale>0.816667</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/snack_bar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grocery">
+		<IconStyle>
+			<color>ffd38b04</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/grocery.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_hospitals">
+		<IconStyle>
+			<color>ffff9113</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_salon">
+		<IconStyle>
+			<color>fff88e14</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/salon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_shopping">
+		<IconStyle>
+			<color>fffeb71c</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_snack_bar">
+		<IconStyle>
+			<color>fff4723e</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/snack_bar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_snack_bar0">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/snack_bar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<Placemark id="laguarida">
+			<name>La Guarida</name>
+			<description><![CDATA[<div>
+<img src="https://austtel.com/wp-content/uploads/2022/07/la-guarida-600x375.png" width="100"/>
+</div>
+<div>
+			<p><b>Dirección:</b> Calle 10 de Marzo</p>
+			<p><b>Teléfono:</b> 0997345758</p>
+			<p><b>Propietario:</b> Manuel Chafla</p>
+			</div>]]></description>
+			<LookAt>
+				<longitude>-79.23699181035302</longitude>
+				<latitude>-3.623776989152391</latitude>
+				<altitude>0</altitude>
+				<heading>-10.94038115462092</heading>
+				<tilt>45.00046214970269</tilt>
+				<range>460.4395845560288</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_snack_bar0</styleUrl>
+			<Point>
+				<coordinates>-79.23758570390015,-3.623560418802565,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Pedro</name>
+			<description><![CDATA[<div>
+<img src="" width="100"/>
+</div>
+<div>
+			<p><b>Dirección:</b> 10 de Marzo y Panamericana</p>
+			<p><b>Teléfono:</b> 0991054968</p>
+			<p><b>Propietario:</b> José Andres Silva Taday</p>
+			</div>]]>
+			</description>
+			<LookAt>
+				<longitude>-79.23648552498013</longitude>
+				<latitude>-3.624139376019933</latitude>
+				<altitude>0</altitude>
+				<heading>-18.78043328533736</heading>
+				<tilt>45.0004298765684</tilt>
+				<range>229.4028625539245</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grocery</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.23596989844508,-3.624412564759635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AmbuMedic</name>
+			<description><![CDATA[<div>
+				<img src="" width="100"/>
+				</div>
+				<div>
+				<p><b>Dirección: </b> Calle 10 de Marzo</p>
+				<p><b>Teléfono: </b> 0980957501 </p>
+				<p><b>Contacto: </b> Dr. Luis Mauricio Ambuludí Medina</p>
+				</div>]]>
+			</description>
+			<LookAt>
+				<longitude>-79.23633516438123</longitude>
+				<latitude>-3.62411755604512</latitude>
+				<altitude>0</altitude>
+				<heading>-18.78047988064779</heading>
+				<tilt>38.61368115726751</tilt>
+				<range>220.0477294217139</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_hospitals</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.23619820744177,-3.624275545614917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="Home">
+			<name>AUSTTEL</name>
+			<description><![CDATA[<div>
+				<img src="https://pr1.nicelocal.ec/8525zthchUV2svq54rNJ_w/630x384,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2acS2RKPlg4rSqw0dq3M4IuZEBQA5KsHJ2yD_oA37VVeViirrvlBexn1_O0lHwVumg" width="100"/>
+			</div>
+			<div>
+			<p><b>Oficina Central:</b> Calle 10 de Marzo</p>
+			<p><b>Cel. Secretaría:</b> 0999269333</p>
+			<p><b>Servicio Técnico 24h:</b> 0985264281</p>
+			</div>]]></description>
+			<styleUrl>#life</styleUrl>
+			<Style>
+				<BalloonStyle>
+					<textColor>ffffffff</textColor>
+					<bgColor>ffc25200</bgColor>
+					<displayMode>default</displayMode>
+				</BalloonStyle>
+			</Style>
+			<Point>
+				<coordinates>-79.237126,-3.623851999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vos Chick</name>
+			<description>
+			<![CDATA[<div>
+				<img src="" width="100"/>
+				</div>
+				<div>
+				<p><b>Dirección: </b> Calle 10 de Marzo</p>
+				<p><b>Teléfono: </b> 0986962151 </p>
+				<p><b>Propietario: </b> Sr. Manuel Fabricio Guaillas</p>
+				</div>]]>
+			</description>
+			<LookAt>
+				<longitude>-79.23633516438123</longitude>
+				<latitude>-3.62411755604512</latitude>
+				<altitude>0</altitude>
+				<heading>-18.78047988064779</heading>
+				<tilt>38.61368115726751</tilt>
+				<range>220.0477294217139</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_shopping</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.23610230304952,-3.624337952040267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panaderia Maquitas</name>
+			<description>
+			<![CDATA[<div>
+				<img src="" width="100"/>
+				</div>
+				<div>
+				<p><b>Dirección: </b> Calle EL Oro, Parque Central</p>
+				<p><b>Teléfono: </b> 0969084932 </p>
+				<p><b>Propietario: </b> Sra. Ana Cecilia Macas</p>
+				</div>]]>
+			</description>
+			<LookAt>
+				<longitude>-79.23713065655541</longitude>
+				<latitude>-3.623160100837742</latitude>
+				<altitude>0</altitude>
+				<heading>-18.78042965057623</heading>
+				<tilt>38.61467418963291</tilt>
+				<range>397.2469930191947</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_snack_bar</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.23809196483876,-3.622191685756312,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Muguna</name>
+			<description>
+			<![CDATA[<div>
+				<img src="" width="100"/>
+				</div>
+				<div>
+				<p><b>Dirección: </b> Calle EL Oro, Parque de las Culturas</p>
+				<p><b>Teléfono: </b> 0995939582 </p>
+				<p><b>Propietario: </b> Robert Puglla</p>
+				</div>]]>
+			</description>
+			<LookAt>
+				<longitude>-79.2395013431274</longitude>
+				<latitude>-3.621537652552527</latitude>
+				<altitude>0</altitude>
+				<heading>-18.78041704900918</heading>
+				<tilt>25.09339958904327</tilt>
+				<range>271.1757206045179</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_dining</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.24034448136523,-3.620961456732219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gianella Expert</name>
+			<description>
+			<![CDATA[<div>
+				<img src="https://austtel.com/wp-content/uploads/2022/04/gianella-expert-peluqueria-1024x316.jpg" width="100"/>
+				</div>
+				<div>
+				<p><b>Dirección: </b> Honorato Lazo, El León</p>
+				<p><b>Teléfono: </b> 0987452003 </p>
+				<p><b>Propietario: </b> Esperanza Malla</p>
+				<p><b>Servicios: </b> Peluqueria e Imagen</p>
+				</div>]]>
+			</description>
+			<LookAt>
+				<longitude>-79.24016305767923</longitude>
+				<latitude>-3.621890812996875</latitude>
+				<altitude>0</altitude>
+				<heading>-18.78026084904619</heading>
+				<tilt>34.82888971381279</tilt>
+				<range>449.2076121243639</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_salon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.24145982924942,-3.621562813724003,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
